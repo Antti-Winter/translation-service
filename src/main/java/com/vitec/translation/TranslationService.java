@@ -17,7 +17,7 @@ public class TranslationService {
     private final String apiKey;
     private final HttpClient httpClient;
     private final ObjectMapper objectMapper;
-    private final String baseUrl = "https://api.deepl.com/v2";
+    private final String baseUrl = "https://api-free.deepl.com/v2";
 
     /**
      * Konstruktori, joka alustaa palvelun annetulla API-avaimella.
